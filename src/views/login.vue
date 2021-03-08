@@ -5,12 +5,12 @@
 				<v-col cols="12" md="6">
 					<v-card>
 						<v-card-text>
-							<h1 class="text-center blue--text display-2">旅游门票信息系统</h1>
+							<h1 class="text-center blue--text display-2">登录</h1>
 						</v-card-text>
 						<v-card-text>
-							<v-text-field label="name" prepend-icon="person" required></v-text-field>
+							<v-text-field label="name"  required></v-text-field>
 		
-							<v-text-field label="password" prepend-icon="lock" required></v-text-field>
+							<v-text-field label="password"  required></v-text-field>
 						</v-card-text>
 						<v-card-actions>
 							<v-spacer></v-spacer>

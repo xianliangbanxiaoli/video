@@ -8,8 +8,7 @@
 </template>
 
 <script>
-//	import Nav from '@/components/nav.vue'
-  import Nav from '@/components/player.vue'
+import Nav from '@/components/nav.vue'
 	export default {
 		components:{
 			Nav
@@ -17,5 +16,3 @@
 	}
 </script>
 
-<style>
-</style>
