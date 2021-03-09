@@ -75,7 +75,6 @@
             >
               <!--主视图  -->
               <video id="videoElement" controls autoplay muted width="300px" height="200px"></video>
-              <!-- <button @click="play">播放</button> -->
 
             </v-sheet>
           </v-col>
@@ -97,12 +96,6 @@ import flvjs from 'flv.js'
       ],
     }),
     name: "player" ,
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App',
-      flvPlayer:null
-    }
-  },
   mounted() {
     if (flvjs.isSupported()) {
       var videoElement = document.getElementById('videoElement');
@@ -111,7 +104,6 @@ import flvjs from 'flv.js'
         isLive: true,
         hasAudio: false,
         url: 'http://117.40.182.188:10800/flv/hls/stream_3.flv'
-        //url:'http://117.40.182.188:10800/play.html?channel=4&protocol=WS_FLV'
 
       });
       this.flvPlayer.attachMediaElement(videoElement);
